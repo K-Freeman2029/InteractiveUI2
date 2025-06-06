@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
+    var name = ""
     var body: some View {
         VStack{
             Text("What is your name?")
@@ -20,6 +21,9 @@ struct ContentView: View {
                 /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/            }
         }
         .padding()
+        .font(.title)
+        .buttonStyle(.borderedProminent)
+        
     }
     }
 #Preview {
